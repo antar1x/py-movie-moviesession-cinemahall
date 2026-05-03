@@ -40,4 +40,3 @@ def create_movie(
     if actors_ids:
         movie_.actors.set(actors_ids)  # ← .set() замість .add(*...)
     return movie_
-
